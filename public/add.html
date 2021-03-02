@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <title>Nietjes - voeg toe</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <h1 class="display-4 text-center">Plaats een nietje</h1>
+
+      <form id="nietjes-form" class="mb-4">
+        <div class="form-group">
+          <label for="nietjes-id">Nietjes-ID (moet uniek zijn!) </label>
+          <input type="text" id="nietjes-id" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="nietjes-adres">Bij welk adres?</label>
+          <input type="text" id="nietjes-adres" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Voeg toe</button>
+        <a href="index.html" class="btn btn-secondary">Terug</a>
+      </form>
+    </div>
+
+    <script src="js/add.js"></script>
+  </body>
+</html>
